@@ -1,6 +1,5 @@
-package com.example.project3.api
+package com.example.project3.api.model
 
-import com.example.project3.api.RickMorty
 import com.squareup.moshi.Json
 
 data class RickMortyCharacters (
