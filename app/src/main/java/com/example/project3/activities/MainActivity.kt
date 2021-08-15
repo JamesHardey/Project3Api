@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity(),SwipeRefreshLayout.OnRefreshListener {
 
         title = "RickAndMorty"
         recyclerView=binding.recyclerV
-        swipeRefreshLayout = binding.swiperefresh
+        swipeRefreshLayout = binding.swipeRefresh
         swipeRefreshLayout.setOnRefreshListener(this)
         recyclerAdapter = MainAdapter{
             changeActivity(it)

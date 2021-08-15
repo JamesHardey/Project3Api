@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Project3</string>
+    <string name="character_name">Name</string>
+    <string name="character_status">Status</string>
+    <string name="character_species">Species</string>
+    <string name="character_image">CharacterImage</string>
+    <string name="joseph_ibrahim">Joseph Ibrahim</string>
+    <string name="dead">Dead</string>
+    <string name="human">Human</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="episodes">Episodes</string>
+    <string name="episode1">Episode1</string>
+    <string name="s01e01">S01E01</string>
 </resources>
