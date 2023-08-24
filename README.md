@@ -2,6 +2,8 @@
 
 RicK And Morty API
 
+<img src="[https://example.com/path/to/your/image.png](https://user-images.githubusercontent.com/60360836/129466569-5c15c3d6-f6ec-4828-8ad9-ff2291bdf87a.png)" width="200" height="150">
+
 ![Screenshot_20210814-150959.png](https://user-images.githubusercontent.com/60360836/129466569-5c15c3d6-f6ec-4828-8ad9-ff2291bdf87a.png)
 
 ![Screenshot_20210814-150912.png](https://user-images.githubusercontent.com/60360836/129466572-fe803ebf-8027-45bd-a52c-bfe142e98872.png)
