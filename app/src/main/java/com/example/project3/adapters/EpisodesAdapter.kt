@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.TextView
 import com.example.project3.R
 import com.example.project3.api.model.Episode
@@ -25,7 +26,8 @@ class EpisodesAdapter(private val getContext: Context,private var episodes:Mutab
 
             holder = ViewHolder()
             holder.text1 = listLayout.findViewById(R.id.episodeItem)
-            holder.text2 = listLayout.findViewById(R.id.episodeNumber)
+            holder.text2 = listLayout.findViewById(R.id.episodeAirDate)
+            holder.text3 = listLayout.findViewById(R.id.episodeName)
             listLayout.tag = holder
         }
 
@@ -35,8 +37,9 @@ class EpisodesAdapter(private val getContext: Context,private var episodes:Mutab
 
         val listItem = episodes[position]
 
-        holder.text1!!.text = listItem.name
-        holder.text2!!.text = listItem.episode
+        holder.text1!!.text = listItem.episode
+        holder.text2!!.text = "Air Date: ${listItem.airDate}"
+        holder.text3!!.text = listItem.name
         Log.d(EpisodesAdapter::class.simpleName,"${holder.text2!!.text}")
 
 
@@ -51,8 +54,10 @@ class EpisodesAdapter(private val getContext: Context,private var episodes:Mutab
     }
 
      class ViewHolder{
-        internal var text1: TextView? = null
-        internal var text2: TextView? = null
+         internal var text1: TextView? = null
+         internal var text2: TextView? = null
+         internal var text3: TextView? = null
+         internal var goBtn: Button? = null
 
     }
 }
